@@ -5,5 +5,81 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  max-height: 300px;
+  overflow: auto;
+  font: 24px / 1 sans-serif;
+  background-color: #000000;
+}
+
+.red {
+  color: #FF0000;
+}
+
+.black {
+  color: #000000;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.col-sm-9 {
+  width: 90.90%;
+}
+
+.col-sm-2 {
+  width: 22.22%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.border {
+  border: 1px solid #ffffff;
+}
+
+.p-l-sm: {
+  padding-left: 15px !important;
+}
+
+.p-r-s {
+  padding-right: 15px !important;
+}
+
+.padtop {
+  padding-bottom: 15px !important;
+}
+
+.padbot {
+  padding-top: 15px !important;
+}
+
+.leftmarg {
+  margin-left: 15px !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.nomarg {
+  margin-top: none !important;
+  margin-bottom: none !important;
+}
+
+.span1 {
+  font: 18px / 1 sans-serif;
+}
+
+.span2 {
+  font: 14px / 1 sans-serif;
+}
+
+.span3 {
+  font: 12px / 1 sans-serif;
 }
