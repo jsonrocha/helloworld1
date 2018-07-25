@@ -168,7 +168,7 @@ li {
 .flexer {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -193,28 +193,40 @@ table, td, th {
 
 #td1 {
   background-color: #0000FF;
+  animation-name: colorz;
+  animation-duration: 8s;
 }
 
 #td2 {
   background-color: #00FF00;
+  animation-name: colorz2;
+  animation-duration: 8s;
 }
 
 #td3 {
   background-color: #FF00FF;
+  animation-name: colorz3;
+  animation-duration: 8s;
 }
 
 #td4 {
   background-color: #FF0000;
+  animation-name: colorz4;
+  animation-duration: 8s;
 }
 
 #td5 {
   background-color: #FFFF00;
-  color: #000000
+  color: #000000;
+  animation-name: colorz5;
+  animation-duration: 8s;
 }
 
 #td6 {
   background-color: #FFFFFF;
-  color: #000000
+  color: #000000;
+  animation-name: colorz6;
+  animation-duration: 8s;
 }
 
 #table1 {
@@ -225,4 +237,58 @@ table, td, th {
 .vertcent {
   position: relative;
   top: 100px;
+}
+
+@keyframes colorz {
+  from {
+    background-color: #0000FF;
+  }
+  to {
+    background-color: #00FF00;
+  }
+}
+
+@keyframes colorz2 {
+  from {
+    background-color: #00FF00;;
+  }
+  to {
+    background-color: #FF0000;
+  }
+}
+
+@keyframes colorz3 {
+  from {
+    background-color: #FF00FF;
+  }
+  to {
+    background-color: #0000FF;
+  }
+}
+
+@keyframes colorz4 {
+  from {
+    background-color: #FF0000;
+  }
+  to {
+    background-color: #FFFF00;
+  }
+}
+
+@keyframes colorz5 {
+  from {
+    background-color: #FFFF00;
+  }
+  to {
+    background-color: #FF00FF;
+  }
+}
+
+@keyframes colorz6 {
+  from {
+    background-color: #FFFFFF;
+  }
+  to {
+    background-color: #00FF00;
+  }
 }
